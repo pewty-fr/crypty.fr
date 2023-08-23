@@ -19,6 +19,6 @@
   new_window: true
   highlight: false
 - name: Sign Up
-  link: https://auth.crypty.fr/if/flow/crypty-enrollment-flow/?next=%2F
+  link: https://auth.crypty.fr/if/flow/inscription/?next=%2F
   new_window: true
   highlight: true

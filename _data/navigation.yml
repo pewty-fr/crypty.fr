@@ -14,11 +14,23 @@
 #   link: /contact/
 #   new_window: false
 #   highlight: false
-- name: Login
+- name: Amateurs
+  link: /amateurs/
+  new_window: false
+  highlight: false
+- name: Expérimentés
+  link: /experimentes/
+  new_window: false
+  highlight: false
+- name: Professionels
+  link: /professionels/
+  new_window: false
+  highlight: false
+- name: Connexion
   link: https://auth.crypty.fr/if/flow/crypty-authentication-flow/?next=%2F
   new_window: true
   highlight: false
-- name: Sign Up
+- name: Inscription
   link: https://auth.crypty.fr/if/flow/inscription/?next=%2F
   new_window: true
   highlight: true

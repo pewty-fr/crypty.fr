@@ -14,16 +14,16 @@
 #   link: /contact/
 #   new_window: false
 #   highlight: false
-- name: Amateurs
-  link: /amateurs/
+- name: Produits
+  link: /produits/
   new_window: false
   highlight: false
-- name: Expérimentés
-  link: /experimentes/
+- name: Plateformes
+  link: /plateformes/
   new_window: false
   highlight: false
-- name: Professionels
-  link: /professionels/
+- name: Offres
+  link: /offres/
   new_window: false
   highlight: false
 - name: Connexion

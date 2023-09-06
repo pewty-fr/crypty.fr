@@ -1,0 +1,42 @@
+---
+title: Produits
+heading: Nos produits
+permalink: /produits/
+products:
+- name: Ghost Bot
+  description: Un bot virtuel qui permet d'évaluer vos gains potentiels sans investissement et d'adapter vos strategies.
+  image: /images/ghost.png
+- name: Trader Bot
+  description: Un bot de trading qui se connecte à une de vos plateformes pour effectuer des achats et ventes aux moments opportuns.
+  image: /images/trader.png
+- name: Strategie Grid
+  description: Un strategie de trading par grille, adaptée par nos soins.
+  image: /images/money_growth.png
+faq:
+---
+
+{% for product in page.products %}
+<section>
+  <div class="container flex">
+    <div class="text editable">
+      <h2 class="subtext editable">{{ product.name }}</h2>
+      <p class="subtext editable">{{ product.description }}</p>
+    </div>
+    <div class="image">
+      <img src="{{ site.baseurl }}{{ product.image }}" alt="Money Growth" class="editable" />
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% if page.faq %}
+  <h2>FAQ</h2>
+  <dl class="faq">
+    {% for item in page.faq %}
+      <div>
+        <dt>{{ item.question }}</dt>
+        <dd>{{ item.answer }}</dd>
+      </div>
+    {% endfor %}
+  </dl>
+{% endif %}

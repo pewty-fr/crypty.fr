@@ -1,0 +1,34 @@
+---
+title: Plateformes
+heading: Les platformes disponibles
+description: Crypty se connecte à vos plateformes grâce à un API Token
+permalink: /plateformes/
+platforms:
+- name: Binance
+  image: /images/binance.png
+faq:
+---
+{% for platform in page.platforms %}
+<section>
+  <div class="container flex">
+    <div class="text editable">
+      <h2 class="subtext editable">{{ platform.name }}</h2>
+    </div>
+    <div class="image">
+      <img src="{{ site.baseurl }}{{ platform.image }}" alt="Binance" class="editable" />
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% if page.faq %}
+  <h2>FAQ</h2>
+  <dl class="faq">
+    {% for item in page.faq %}
+      <div>
+        <dt>{{ item.question }}</dt>
+        <dd>{{ item.answer }}</dd>
+      </div>
+    {% endfor %}
+  </dl>
+{% endif %}

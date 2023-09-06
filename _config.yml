@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Automatize crypto trading
+title: Crypty
 url: "https://crypty.fr"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: https://raw.githubusercontent.com/pewty-fr/images/main/crypty-logo.png
-description: Automatize crypto trading Using expert crypto bots and trading algorythms.
+description: Le trading de crypto-monnaies à la portée de tous 
 author:
   name: Tanguy Falconnet
   email: tanguy.falconnet@pewty.fr
@@ -30,7 +30,7 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/documentation/:num/"
 permalink: pretty
 
 defaults:

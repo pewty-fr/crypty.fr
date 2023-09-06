@@ -14,10 +14,10 @@
 #   link: /contact/
 #   new_window: false
 #   highlight: false
-- name: Produits
-  link: /produits/
-  new_window: false
-  highlight: false
+# - name: Produits
+#   link: /produits/
+#   new_window: false
+  # highlight: false
 - name: Documentation
   link: /documentation/
   new_window: false
